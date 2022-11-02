@@ -14,20 +14,21 @@
     </nav>
     <main>
         <section>
-            <div class="input">
+            <div class="input" id="input">
                 <div style="margin-left: 15px" id="date">
                     Dia
                 </div>
                 <div style="margin-right: 15px">
                     <input type="text" name="" id="km">
                     <input type="text" name="" id="kcal">
-                    <button class="botaoSalvar">Salvar</button>
+                    <button class="botaoSalvar" onclick="colectValues()">Salvar</button>
                 </div>
             </div>
-            <div class="container">
-                
-                <div class="subsection">
-                    
+            <div class="container" id="container">
+                <div class="subsection" id="subsection">
+                    <div id="placeValues" id="placeValues">
+
+                    </div>
                 </div>
             </div>          
         </section>
