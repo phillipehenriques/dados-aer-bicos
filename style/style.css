@@ -146,6 +146,12 @@ input {
     height: 20px;
 }
 
+.kmClass {
+    background-color: red;
+    width: 120px;
+    height: 50px;
+}
+
 .input {
     background-color: white;
     display: flex;
@@ -183,6 +189,7 @@ input {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     width:50%;
     min-width: 100px;
     height: 35vh;

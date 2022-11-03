@@ -25,11 +25,12 @@ function colectValues() {
 
     var valueKm = document.getElementById('km').value
     var valueKcal = document.getElementById('kcal').value
-    var placeValuers = document.getElementById('placeValues') 
+    var placeValues = document.getElementById('placeValues') 
 
-    var createKm = document.createElement('div');
-    createKm.className = "kmClass";
-    createKm.id = "km_" + Math.floor(Math.random() * 90000) + 10000;
+    var divplaceValues = document.createElement('div');
+    divplaceValues.className = "kmClass";
+    divplaceValues.id = "km_" + Math.floor(Math.random() * 90000) + 10000;
+    divplaceValues.innerText = valueKm
 
     divInput.appendChild(divContainer)
     divContainer.appendChild(divSubsection)
